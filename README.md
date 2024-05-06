@@ -4,6 +4,23 @@ Stand for "Super User DO" which allow root access with command line. Also have f
 **APT**
 Advanced Package Tool, the main command-line package manager for Debian or Debian-based Linux distributions
 
+**Aptitude**
+
+**SELinux**
+
+**AppArmor**
+
+**UFW**
+
+**Command**
+**System** 
+|Command|Function|
+|---|---|
+|lsblk|List block devices, list out the block of device in your system|
+|apt update|Check update for all package|
+|which [command]|Check the command directory|
+|reboot|Reboot System|
+|poweroff|Shut Down System|
 
 **Managing User** 
 |Command|Function|
@@ -25,21 +42,13 @@ Advanced Package Tool, the main command-line package manager for Debian or Debia
 |groupdel [Group name]|Delete the group in system|
 |exit/logout/'ctrl + d'|Log Out current logged user|
 
-**System** 
-|Command|Function|
-|---|---|
-|apt update|Check update for all package|
-|which [command]|Check the command directory|
-|reboot|Reboot System|
-|poweroff|Shut Down System|
-
 **Sudoer** 
-*Command for Sudo*
 ```
 root                                          All                      = (              All              :             All                )            All
 name ('%' for group name)  Host/Server that allow exercute coomand on  = (User that allow to impersonate : Group that allow to impersonate) Command that allow to use
 ```
 
+*Command for Sudo*
 |Command|Function|
 |---|---|
 |sudo !!|Recall previous line with sudo at the start| 
