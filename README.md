@@ -2,7 +2,7 @@
 Stand for "Super User DO" which allow root access with command line. Also have function assin some command line access for some user.
 
 **APT**
-Advanced Package Tool, the main command-line package manager
+Advanced Package Tool, the main command-line package manager for Debian or Debian-based Linux distributions
 
 
 **Managing User** 
