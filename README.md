@@ -59,4 +59,4 @@ name ('%' for group name)  Host/Server that allow exercute coomand on  = (User t
 |Line|Function|
 |---|---|
 |%[name]|Mention that this is a group|
-|NOPASSWD:[*Command Line*]|No Password Needed When Using listed Command (Put "ALL" for all command line)|
+|NOPASSWD:[*Command Line directory*]|No Password Needed When Using listed Command (Put "ALL" for all command line)|
