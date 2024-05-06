@@ -14,16 +14,18 @@ Advanced Package Tool, the main command-line package manager
 |adduser [Username]|Add user with asking details, and default shell will set to /bin/bash ***(Require Root Access)***|
 |useradd [Username]|Add user without asking details, and default shell will set to /bin/sh ***(Require Root Access)***|
 |userdel [Username]|Delete the user in the system|
-|usermod [Username][*flags*]|User Modification.<br>`--shell [shell directory]` to change shell for user<br>`-l [new username] [old username]` change user name (*-l = new_logname*)<br>`-aG [Group Name] [Username]` append the user to a group (*-a = append && -G = group*)|
+|usermod [*flags*]|User Modification.<br>`[Username] --shell [shell directory]` to change shell for user<br>`-l [new username] [old username]` change user name (*-l = new_logname*)|
 |passwd [Username]|Change user password, will change current user password if didn't put username
-|**Groups**|
+
+**Managing Groups** 
+|usermod [*flags*]|`-aG [Group Name] [Username]` append the user to a group (*-a = append && -G = group*)|
 |gpasswd -d [Username][Group Name]|Delete the user from the group (*-d = delete*)|
 |groups|List the groups that your current logged user is in|
 |groupadd [Group Name]|Add a group in system|
 |groupdel [Group name]|Delete the group in system|
 |exit/logout/'ctrl + d'|Log Out current logged user|
 
-**System**
+**System** 
 |Command|Function|
 |---|---|
 |apt update|Check update for all package|
@@ -31,8 +33,13 @@ Advanced Package Tool, the main command-line package manager
 |reboot|Reboot System|
 |poweroff|Shut Down System|
 
-**Sudoer**
+**Sudoer** 
 *Command for Sudo*
+```
+root                                          All                      = (              All              :             All                )            All
+name ('%' for group name)  Host/Server that allow exercute coomand on  = (User that allow to impersonate : Group that allow to impersonate) Command that allow to use
+```
+
 |Command|Function|
 |---|---|
 |sudo !!|Recall previous line with sudo at the start| 
