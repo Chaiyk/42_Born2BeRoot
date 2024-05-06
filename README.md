@@ -1,1 +1,1 @@
-# Born2BeRoot
+"su -" - log to root
