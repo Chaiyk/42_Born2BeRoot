@@ -4,6 +4,10 @@ Stand for "Super User DO" which allow root access with command line. Also have f
 ### **LVM** 
 Logical Volume Manager a system that manage the storage
 
+PV = Physical Volume
+VG = Volume Group
+LV = Logical Volume
+
 ### **APT** 
 Advanced Package Tool, the main command-line package manager for Debian or Debian-based Linux distributions
 
@@ -14,6 +18,11 @@ Advanced Package Tool, the main command-line package manager for Debian or Debia
 ### **AppArmor**
 
 ### **UFW**
+
+### **SSH**
+Secure Shell
+
+### **TTY mode**
 
 ## **Command**
 #### **System** 
