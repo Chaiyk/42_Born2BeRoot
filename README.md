@@ -1,6 +1,9 @@
 **sudo**  
 Stand for "Super User DO" which allow root access with command line. Also have function assin some command line access for some user.
 
+**LVM**
+Logical Volume Manager a system that manage the storage
+
 **APT**
 Advanced Package Tool, the main command-line package manager for Debian or Debian-based Linux distributions
 
