@@ -1,22 +1,22 @@
 ### **sudo**  
 Stand for "Super User DO" which allow root access with command line. Also have function assin some command line access for some user.
 
-## **LVM** 
+### **LVM** 
 Logical Volume Manager a system that manage the storage
 
-## **APT** 
+### **APT** 
 Advanced Package Tool, the main command-line package manager for Debian or Debian-based Linux distributions
 
-## **Aptitude**
+### **Aptitude**
 
-## **SELinux**
+### **SELinux**
 
-## **AppArmor**
+### **AppArmor**
 
-## **UFW**
+### **UFW**
 
-## **Command**
-### **System** 
+### **Command**
+#### **System** 
 |Command|Function|
 |---|---|
 |lsblk|List block devices, list out the block of device in your system|
@@ -25,7 +25,7 @@ Advanced Package Tool, the main command-line package manager for Debian or Debia
 |reboot|Reboot System|
 |poweroff|Shut Down System|
 
-### **Managing User** 
+#### **Managing User** 
 |Command|Function|
 |---|---|
 |whoami|Check what user account you using|
@@ -37,7 +37,7 @@ Advanced Package Tool, the main command-line package manager for Debian or Debia
 |usermod [*flags*]|User Modification.<br>`[Username] --shell [shell directory]` to change shell for user<br>`-l [new username] [old username]` change user name (*-l = new_logname*)|
 |passwd [Username]|Change user password, will change current user password if didn't put username
 
-### **Managing Groups** 
+#### **Managing Groups** 
 |Command|Function|
 |---|---|
 |usermod [*flags*]|`-aG [Group Name] [Username]` append the user to a group (*-a = append && -G = group*)|
@@ -47,20 +47,20 @@ Advanced Package Tool, the main command-line package manager for Debian or Debia
 |groupdel [Group name]|Delete the group in system|
 |exit/logout/'ctrl + d'|Log Out current logged user|
 
-## **Sudoer** 
+### **Sudoer** 
 ```
 root                                          All                      = (              All              :             All                )            All
 name ('%' for group name)  Host/Server that allow exercute coomand on  = (User that allow to impersonate : Group that allow to impersonate) Command that allow to use
 ```
 
-### *Command for Sudo*
+#### *Command for Sudo*
 |Command|Function|
 |---|---|
 |sudo !!|Recall previous line with sudo at the start| 
 |sudo visudo|Open visudo for user access permission|
 |sudo -l|check current logged account access permission|
 
-### *In visudo*
+#### *In visudo*
 |Line|Function|
 |---|---|
 |%[name]|Mention that this is a group|
