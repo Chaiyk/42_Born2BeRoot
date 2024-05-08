@@ -24,8 +24,8 @@ Secure Shell
 
 ### **TTY mode**
 
-## **Command**
-#### **System** 
+# **Command**
+### **System** 
 |Command|Function|
 |---|---|
 |lsblk|List block devices, list out the block of device in your system|
