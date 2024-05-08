@@ -24,12 +24,17 @@ Secure Shell
 
 ### **TTY mode**
 
+### **wget** 
+A free and open source tool for downloading files from web repositories
+
 # **Command**
 ### **System** 
 |Command|Function|
 |---|---|
 |lsblk|List block devices, list out the block of device in your system|
-|apt update|Check update for all package|
+|apt intall [package name]|Intall a package|
+|apt update|Check update for all package/system|
+|apt upgrade|Upgrade all the avaliable update for all package/system|
 |which [command]|Check the command directory|
 |reboot|Reboot System|
 |poweroff|Shut Down System|
