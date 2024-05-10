@@ -61,7 +61,7 @@ A free and open source tool for downloading files from web repositories
 |groupdel [Group name]|Delete the group in system|
 |exit/logout/'ctrl + d'|Log Out current logged user|
 
-## **ssh**
+## **SSH Service**
 ### **Change port for the SSH Service** <br>
 Go **/etc/ssh/sshd_config** using editor. on line 14 remove '#' and change the port number. exp: "Port 4242"
 
