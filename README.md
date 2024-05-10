@@ -4,9 +4,9 @@ Stand for "Super User DO" which allow root access with command line. Also have f
 ### **LVM** 
 Logical Volume Manager a system that manage the storage
 
-PV = Physical Volume 
-VG = Volume Group 
-LV = Logical Volume 
+PV = Physical Volume, storage that is in Physical like HDD/SDD etc
+VG = Volume Group, storage that combine all the PV and prepare for use of LV
+LV = Logical Volume, storage that are ready to use in OS like C drive etc
 
 ### **APT** 
 Advanced Package Tool, the main command-line package manager for Debian or Debian-based Linux distributions
