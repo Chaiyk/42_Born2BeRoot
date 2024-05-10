@@ -73,7 +73,7 @@ A free and open source tool for downloading files from web repositories
 
 ## **SSH Service**
 ### **Change port for the SSH Service** <br>
-Go **/etc/ssh/sshd_config** using editor. on line 14 remove '#' and change the port number. exp: "Port 4242"
+Go `/etc/ssh/sshd_config` using editor. on line 14 remove '#' and change the port number. exp: "Port 4242"
 
 |Command|Function|
 |---|---|
