@@ -29,15 +29,15 @@ Secure Shell, a Shell that use encrypted test to communicate to serverx`
 A free and open source tool for downloading files from web repositories
 
 # **Command**
-### **System** 
-#### **General**
+#### **System** 
+## **General**
 |Command|Function|
 |---|---|
 |which [command]|Check the command directory|
 |grep [text][file]|Print the line that match the *[text]*|
 |ssh *username*@*ip address*|Connect to a server via ssh<br>`-p [port]`connect to server via port nunber|
 
-#### **Linux**
+## **Linux**
 |Command|Function|
 |---|---|
 |ip a| check the network details|
@@ -49,7 +49,7 @@ A free and open source tool for downloading files from web repositories
 |reboot|Reboot System|
 |poweroff|Shut Down System|
 
-### **Managing User** 
+## **Managing User** 
 |Command|Function|
 |---|---|
 |whoami|Check what user account you using|
@@ -61,7 +61,7 @@ A free and open source tool for downloading files from web repositories
 |usermod [*flags*]|User Modification.<br>`[Username] --shell [shell directory]` to change shell for user<br>`-l [new username] [old username]` change user name (*-l = new_logname*)|
 |passwd [Username]|Change user password, will change current user password if didn't put username
 
-### **Managing Groups** 
+## **Managing Groups** 
 |Command|Function|
 |---|---|
 |usermod [*flags*]|`-aG [Group Name] [Username]` append the user to a group (*-a = append && -G = group*)|
