@@ -4,9 +4,9 @@ Stand for "Super User DO" which allow root access with command line. Also have f
 ### **LVM** 
 Logical Volume Manager a system that manage the storage
 
-PV = Physical Volume
-VG = Volume Group
-LV = Logical Volume
+PV = Physical Volume 
+VG = Volume Group 
+LV = Logical Volume 
 
 ### **APT** 
 Advanced Package Tool, the main command-line package manager for Debian or Debian-based Linux distributions
@@ -60,6 +60,15 @@ A free and open source tool for downloading files from web repositories
 |groupadd [Group Name]|Add a group in system|
 |groupdel [Group name]|Delete the group in system|
 |exit/logout/'ctrl + d'|Log Out current logged user|
+
+### **ssh**
+## **Change port for the SSH Service** <br>
+Go **/etc/ssh/sshd_config** using editor. on line 14 remove '#' and change the port number. exp: "Port 4242"
+
+|Command|Function|
+|---|---|
+|ststemctl status ssh|Check the status of the ssh server|
+|service ssh restart|Restart the ssh service|
 
 ### **Sudoer** 
 ```
