@@ -20,7 +20,7 @@ Advanced Package Tool, the main command-line package manager for Debian or Debia
 ### **UFW**
 
 ### **SSH**
-Secure Shell
+Secure Shell, a Shell that use encrypted test to communicate to serverx`
 
 ### **TTY mode**
 
@@ -29,13 +29,20 @@ A free and open source tool for downloading files from web repositories
 
 # **Command**
 ### **System** 
+#### **General**
 |Command|Function|
 |---|---|
+|which [command]|Check the command directory|
+|grep [text][file]|Print the line that match the *[text]*|
+
+#### **Linux**
+|Command|Function|
+|---|---|
+|ip a| check the network details|
 |lsblk|List block devices, list out the block of device/partition in your system<br><br>NAME: Name of the partition<br>"MAJ:MIN": Major and Minor device numbers<br>RM: Removable device<br>Size: Size of the partition<br>RO: Read only<br>Type: Device type<br>MOUNTPOINT: Mount Point|
 |apt intall [package name]|Intall a package|
 |apt update|Check update for all package/system|
 |apt upgrade|Upgrade all the avaliable update for all package/system|
-|which [command]|Check the command directory|
 |reboot|Reboot System|
 |poweroff|Shut Down System|
 
