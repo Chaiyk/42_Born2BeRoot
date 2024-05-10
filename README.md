@@ -34,6 +34,7 @@ A free and open source tool for downloading files from web repositories
 |---|---|
 |which [command]|Check the command directory|
 |grep [text][file]|Print the line that match the *[text]*|
+|ssh *username*@*ip address*|Connect to a server via ssh<br>`-p [port]`connect to server via port nunber|
 
 #### **Linux**
 |Command|Function|
@@ -43,6 +44,7 @@ A free and open source tool for downloading files from web repositories
 |apt intall [package name]|Intall a package|
 |apt update|Check update for all package/system|
 |apt upgrade|Upgrade all the avaliable update for all package/system|
+|systemctl status [software]|Check the status for the app/software. exp: "systemctl status ssh" will check the status for SSH service|
 |reboot|Reboot System|
 |poweroff|Shut Down System|
 
@@ -76,6 +78,17 @@ Go **/etc/ssh/sshd_config** using editor. on line 14 remove '#' and change the p
 |---|---|
 |ststemctl status ssh|Check the status of the ssh server|
 |service ssh restart|Restart the ssh service|
+
+## **UFW**
+|Command|Function|
+|---|---|
+|ststemctl status ufw|Check the status of the ufw|
+|ufw default|Change the default rule for ufw<br>|
+|ufw enable/disable|Change the status of ufw|
+|ufw status [**]|check the status for ufw, add "numbered" to add the nunber for ports<br>`verbose`list the policy for incoming, outgoing and routed informations<br>`numbered`list the allow port with nunber|
+|ufw allow [Port/Service]|Allow access for Port/Service|
+|ufw deny [Port/Service]|Deny access for Port/Service|
+|ufw delete [*number*]|Remove the port that is listed|
 
 ## **Sudoer** 
 ```
