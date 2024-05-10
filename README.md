@@ -31,7 +31,7 @@ A free and open source tool for downloading files from web repositories
 ### **System** 
 |Command|Function|
 |---|---|
-|lsblk|List block devices, list out the block of device in your system<br>NAME: Name of the partition<br>"MAJ:MIN": Major and Minor device numbers<br>RM: Removable device<br>Size: Size of the partition<br>RO: Read only<br>Type: Device type<br>MOUNTPOINT: Mount Point|
+|lsblk|List block devices, list out the block of device/partition in your system<br><br>NAME: Name of the partition<br>"MAJ:MIN": Major and Minor device numbers<br>RM: Removable device<br>Size: Size of the partition<br>RO: Read only<br>Type: Device type<br>MOUNTPOINT: Mount Point|
 |apt intall [package name]|Intall a package|
 |apt update|Check update for all package/system|
 |apt upgrade|Upgrade all the avaliable update for all package/system|
