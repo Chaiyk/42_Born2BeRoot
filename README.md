@@ -17,7 +17,8 @@ Advanced Package Tool, the main command-line package manager for Debian or Debia
 
 ### **AppArmor**
 
-### **UFW**
+### **UFW** 
+Uncomplicated FireWall, allow/deny the access either incoming/outgoing information to the shell/server
 
 ### **SSH**
 Secure Shell, a Shell that use encrypted test to communicate to serverx`
