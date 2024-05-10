@@ -28,7 +28,7 @@ Secure Shell
 A free and open source tool for downloading files from web repositories
 
 # **Command**
-## **System** 
+### **System** 
 |Command|Function|
 |---|---|
 |lsblk|List block devices, list out the block of device/partition in your system<br><br>NAME: Name of the partition<br>"MAJ:MIN": Major and Minor device numbers<br>RM: Removable device<br>Size: Size of the partition<br>RO: Read only<br>Type: Device type<br>MOUNTPOINT: Mount Point|
