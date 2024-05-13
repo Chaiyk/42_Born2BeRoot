@@ -57,8 +57,8 @@ A free and open source tool for downloading files from web repositories
 |whoami|Check what user account you using|
 |cat [directory]|`/etc/passwd`Show  the list of users in system<br>`"Username" : "password (will show 'x' as the details is in shadow file)" : User ID : Group ID : User Details (full name, adress etc) : Home Directory : Default Shell`<br>`/etc/shadow`Show the list of users with encrypted password in system<br>`/etc/group`Show the list of groups with user inside|
 |su - [Username]|stand for Switch User, if no username will change to root user|
-|adduser [Username]|Add user with asking details, and default shell will set to /bin/bash ***(Require Root Access)***|
-|useradd [Username]|Add user without asking details, and default shell will set to /bin/sh ***(Require Root Access)***|
+|adduser [Username]|Add user **with** asking details, and default shell will set to /bin/bash ***(Require Root Access)***|
+|useradd [Username]|Add user **without** asking details, and default shell will set to /bin/sh ***(Require Root Access)***|
 |userdel [Username]|Delete the user in the system|
 |usermod [*flags*]|User Modification.<br>`[Username] --shell [shell directory]` to change shell for user<br>`-l [new username] [old username]` change user name (*-l = new_logname*)|
 |passwd [Username]|Change user password, will change current user password if didn't put username
