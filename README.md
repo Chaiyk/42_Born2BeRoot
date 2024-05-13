@@ -46,6 +46,8 @@ A free and open source tool for downloading files from web repositories
 |apt update|Check update for all package/system|
 |apt upgrade|Upgrade all the avaliable update for all package/system|
 |systemctl status [software]|Check the status for the app/software. exp: "systemctl status ssh" will check the status for SSH service|
+|hostnamectl|Check the details of hostname|
+|hostnamectl set-hostname [*new hostname*]|Change the hostname for the machine|
 |reboot|Reboot System|
 |poweroff|Shut Down System|
 
