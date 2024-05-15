@@ -28,6 +28,10 @@ A Shell that use encrypted test to communicate to serverx`
 ### **PAM (Pluggable Authentication Modules)**
 Management Group Type    Control Flags    Modules Paths/Modules Argument 
 
+#### Setting Password Policy
+- We need to install `libpam_pwquality` using apt
+- go to `/etc/pam.d/common-password` and add the condition. can refer [HERE](https://manpages.debian.org/testing/libpam-pwquality/pam_pwquality.8.en.html) for details
+
 ### **wget** 
 A free and open source tool for downloading files from web repositories
 
