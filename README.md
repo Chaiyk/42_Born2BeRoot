@@ -1,15 +1,15 @@
-### **sudo**  
-Stand for "Super User DO" which allow root access with command line. Also have function assin some command line access for some user.
+### **sudo (Super User DO)**  
+Allow root access with command line. Also have function assin some command line access for some user.
 
-### **LVM** 
-Logical Volume Manager a system that manage the storage
+### **LVM (Logical Volume Manager)** 
+A system that manage the storage
 
 PV = Physical Volume, storage that is in Physical like HDD/SDD etc <br>
 VG = Volume Group, storage that combine all the PV and prepare for use of LV <br>
 LV = Logical Volume, storage that are ready to use in OS like C drive etc <br>
 
-### **APT** 
-Advanced Package Tool, the main command-line package manager for Debian or Debian-based Linux distributions
+### **APT (Advanced Package Tool)** 
+The main command-line package manager for Debian or Debian-based Linux distributions
 
 ### **Aptitude**
 
@@ -17,13 +17,16 @@ Advanced Package Tool, the main command-line package manager for Debian or Debia
 
 ### **AppArmor**
 
-### **UFW** 
-Uncomplicated FireWall, allow/deny the access either incoming/outgoing information to the shell/server
+### **UFW (Uncomplicated FireWall)** 
+Allow/deny the access either incoming/outgoing information to the shell/server
 
-### **SSH**
-Secure Shell, a Shell that use encrypted test to communicate to serverx`
+### **SSH (Secure Shell)**
+A Shell that use encrypted test to communicate to serverx`
 
 ### **TTY mode**
+
+### **PAM (Pluggable Authentication Modules)**
+
 
 ### **wget** 
 A free and open source tool for downloading files from web repositories
