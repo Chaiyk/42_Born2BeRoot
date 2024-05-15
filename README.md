@@ -26,7 +26,7 @@ A Shell that use encrypted test to communicate to serverx`
 ### **TTY mode**
 
 ### **PAM (Pluggable Authentication Modules)**
-
+Management Group Type    Control Flags    Modules Paths/Modules Argument 
 
 ### **wget** 
 A free and open source tool for downloading files from web repositories
