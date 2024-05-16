@@ -41,6 +41,7 @@ A free and open source tool for downloading files from web repositories
 #### **General**
 |Command|Function|
 |---|---|
+|who|list out the current running tty|
 |which [command]|Check the command directory|
 |grep [text][file]|Print the line that match the *[text]*|
 |ssh *username*@*ip address*|Connect to a server via ssh<br>`-p [port]`connect to server via port nunber|
@@ -119,6 +120,10 @@ name ('%' for group name)  Host/Server that allow exercute coomand on  = (User t
 |---|---|
 |**Defaults&emsp;passwd_tries=*N*|Number of tries to type password when using sudo|
 |**Defaults&emsp;badpass_message=*S*|Custom Error Message when incorrect password|
+|**Defaults&emsp;logfile=[directory]|record the log in to [directory] that mention|
+|**Defaults&emsp;log_input|log the input when user used sudo|
+|**Defaults&emsp;log_output|log the output when user used sudo|
+|**Defaults&emsp;requiretty|User need to use a tty when access to the server|
 |%[name]|Mention that this is a group|
 |NOPASSWD:[*Command Line directory*]|No Password Needed When Using listed Command (Put "ALL" for all command line). exp: ALL:(ALL)NOPASSWD:ALL|
 
