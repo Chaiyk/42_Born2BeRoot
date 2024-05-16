@@ -131,3 +131,9 @@ name ('%' for group name)  Host/Server that allow exercute coomand on  = (User t
 
 **at top around line 9+-
 
+## *Shell Script*
+|Line|Function|
+|---|---|
+|`#![path]`|“#!” is an operator called shebang which directs the script to the interpreter location. So, if we use”#! /bin/sh” the script gets directed to the bourne-shell<br>exp: `path = /bin/bash`|
+|`read [var]`|Get an input from user and put it inside var|
+|
