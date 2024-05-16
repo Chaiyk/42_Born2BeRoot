@@ -42,7 +42,7 @@ A free and open source tool for downloading files from web repositories
 |Command|Function|
 |---|---|
 |who|list out the current running tty|
-|`wall [file]`<br>`wall <<< '[text]'`<br>`echo [text] | wall`|Send a message to all the terminal that connecting to server|
+|`wall [file]`<br>`wall <<< '[text]'`<br>`echo [text] \| wall`|Send a message to all the terminal that connecting to server|
 |which [command]|Check the command directory|
 |grep [text][file]|Print the line that match the *[text]*|
 |ssh *username*@*ip address*|Connect to a server via ssh<br>`-p [port]`connect to server via port nunber|
