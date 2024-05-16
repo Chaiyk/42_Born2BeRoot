@@ -31,6 +31,7 @@ Management Group Type    Control Flags    Modules Paths/Modules Argument
 #### Setting Password Policy
 - We need to install `libpam_pwquality` using apt
 - go to `/etc/pam.d/common-password` and add the condition. can refer [HERE](https://manpages.debian.org/testing/libpam-pwquality/pam_pwquality.8.en.html) for details
+- For deadline of password, go `/etc/login.defs` and adjust the period
 
 ### **wget** 
 A free and open source tool for downloading files from web repositories
