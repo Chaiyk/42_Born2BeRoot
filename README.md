@@ -117,5 +117,9 @@ name ('%' for group name)  Host/Server that allow exercute coomand on  = (User t
 #### *In visudo*
 |Line|Function|
 |---|---|
+|**Defaults    passwd_tries=N|Number of tries to type password when using sudo|
 |%[name]|Mention that this is a group|
 |NOPASSWD:[*Command Line directory*]|No Password Needed When Using listed Command (Put "ALL" for all command line)|
+
+**at top around line 9+-
+
