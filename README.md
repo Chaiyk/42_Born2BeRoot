@@ -118,6 +118,7 @@ name ('%' for group name)  Host/Server that allow exercute coomand on  = (User t
 #### *In visudo*
 |Line|Function|
 |---|---|
+|**Defaults&emsp;secure_path=[*paths (put':' for more paths)*]|Paths that able to access only using sudo|
 |**Defaults&emsp;passwd_tries=*N*|Number of tries to type password when using sudo|
 |**Defaults&emsp;badpass_message=*S*|Custom Error Message when incorrect password|
 |**Defaults&emsp;logfile=[directory]|record the log in to [directory] that mention|
