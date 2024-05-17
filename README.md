@@ -46,8 +46,6 @@ A free and open source tool for downloading files from web repositories
 |`wall [file]`<br>`wall <<< '[text]'`<br>`echo [text] \| wall`|Send a message to all the terminal that connecting to server|
 |which [command]|Check the command directory|
 |[grep](https://linux.die.net/man/1/grep) [text][file]|Print the line that match the *[text]*|
-|[uname *-flags*](https://linux.die.net/man/1/uname)|Print system information.<br>Output:`Kernel Name (-s)``Hostname (-n)``Kernel Release (-r)``Kernel Version & Build Date (-v)``Machine Hardware Name (-m)``Operating System (-o)`|
-|[lscpu](https://linux.die.net/man/1/lscpu)|Display the details for CPU architecture|
 |ssh *username*@*ip address*|Connect to a server via ssh<br>`-p [port]`connect to server via port nunber|
 
 #### **Linux**
@@ -61,6 +59,9 @@ A free and open source tool for downloading files from web repositories
 |systemctl status [software]|Check the status for the app/software. exp: "systemctl status ssh" will check the status for SSH service|
 |hostnamectl|Check the details of hostname|
 |hostnamectl set-hostname [*new hostname*]|Change the hostname for the machine|
+|[uname *-flags*](https://linux.die.net/man/1/uname)|Print system information.<br>Output:`Kernel Name (-s)``Hostname (-n)``Kernel Release (-r)``Kernel Version & Build Date (-v)``Machine Hardware Name (-m)``Operating System (-o)`|
+|[lscpu](https://linux.die.net/man/1/lscpu)|Display the details for CPU architecture|
+|[free](https://ioflood.com/blog/free-linux-command/#:~:text=Like%20a%20vigilant%20watchman%2C%20the,how%20much%20is%20still%20available.)|Display details for avaliable memory|
 |reboot|Reboot System|
 |poweroff|Shut Down System|
 
