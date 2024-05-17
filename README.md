@@ -47,7 +47,7 @@ A free and open source tool for downloading files from web repositories
 |which [command]|Check the command directory|
 |[grep](https://linux.die.net/man/1/grep) [text][file]|Print the line that match the *[text]*|
 |[uname *-flags*](https://linux.die.net/man/1/uname)|Print system information.<br>Output:`Kernel Name (-s)``Hostname (-n)``Kernel Release (-r)``Kernel Version & Build Date (-v)``Machine Hardware Name (-m)``Operating System (-o)`|
-|lscpu|Display the details for CPU architecture|
+|[lscpu](https://linux.die.net/man/1/lscpu)|Display the details for CPU architecture|
 |ssh *username*@*ip address*|Connect to a server via ssh<br>`-p [port]`connect to server via port nunber|
 
 #### **Linux**
