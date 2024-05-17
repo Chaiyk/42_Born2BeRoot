@@ -132,8 +132,11 @@ name ('%' for group name)  Host/Server that allow exercute coomand on  = (User t
 **at top around line 9+-
 
 ## *Shell Script*
+Tutorial: https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/
 |Line|Function|
 |---|---|
 |`#![path]`|“#!” is an operator called shebang which directs the script to the interpreter location. So, if we use”#! /bin/sh” the script gets directed to the bourne-shell<br>exp: `path = /bin/bash`|
-|`read [var]`|Get an input from user and put it inside var|
-|
+|`read [var]`<br>``$[var]`|Get an input from user and put it inside a variable. Then put '$' to call the variable|
+|`#[Comment]|Comment|
+|[uname *-flags*](https://linux.die.net/man/1/uname)|Print system information.|
+
