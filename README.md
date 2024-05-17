@@ -36,6 +36,7 @@ Management Group Type    Control Flags    Modules Paths/Modules Argument
 ### **wget** 
 A free and open source tool for downloading files from web repositories
 
+
 # **Command**
 ## **System** 
 #### **General**
@@ -44,7 +45,9 @@ A free and open source tool for downloading files from web repositories
 |who|list out the current running tty|
 |`wall [file]`<br>`wall <<< '[text]'`<br>`echo [text] \| wall`|Send a message to all the terminal that connecting to server|
 |which [command]|Check the command directory|
-|grep [text][file]|Print the line that match the *[text]*|
+|[grep](https://linux.die.net/man/1/grep) [text][file]|Print the line that match the *[text]*|
+|[uname *-flags*](https://linux.die.net/man/1/uname)|Print system information.<br>Output:`Kernel Name (-s)``Hostname (-n)``Kernel Release (-r)``Kernel Version & Build Date (-v)``Machine Hardware Name (-m)``Operating System (-o)`|
+|lscpu|Display the details for CPU architecture|
 |ssh *username*@*ip address*|Connect to a server via ssh<br>`-p [port]`connect to server via port nunber|
 
 #### **Linux**
@@ -138,6 +141,4 @@ Tutorial: https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-
 |`#![path]`|“#!” is an operator called shebang which directs the script to the interpreter location. So, if we use”#! /bin/sh” the script gets directed to the bourne-shell<br>exp: `path = /bin/bash`|
 |`read [var]`<br>``$[var]`|Get an input from user and put it inside a variable. Then put '$' to call the variable|
 |`#[Comment]|Comment|
-|[uname *-flags*](https://linux.die.net/man/1/uname)|Print system information.<br>Output:`Kernel Name (-s)``Hostname (-n)``Kernel Release (-r)``Kernel Version & Build Date (-v)``Machine Hardware Name (-m)``Operating System (-o)`|
-
 
