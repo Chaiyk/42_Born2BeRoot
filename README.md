@@ -143,3 +143,8 @@ Tutorial: https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-
 |`read [var]`<br>``$[var]`|Get an input from user and put it inside a variable. Then put '$' to call the variable|
 |`#[Comment]|Comment|
 
+
+##System Info
+|Line|Function|
+|---|---|
+|[uname](https://linux.die.net/man/1/uname)|Print system information| 
