@@ -147,4 +147,5 @@ Tutorial: https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-
 ##System Info
 |Line|Function|
 |---|---|
-|[uname](https://linux.die.net/man/1/uname)|Print system information<br>[Kernel Name \| Hostname \| Kernel Release \| Kernal Version \| Hardware Name \| Operation System| 
+|[uname](https://linux.die.net/man/1/uname)|Print system information<br>-a [Kernel Name \| Hostname \| Kernel Release \| Kernal Version \| Hardware Name \| Operation System]| 
+|nproc|print the number of processing units available|
