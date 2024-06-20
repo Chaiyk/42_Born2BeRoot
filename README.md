@@ -145,16 +145,16 @@ Tutorial: https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-
 |`read [var]`<br>``$[var]`|Get an input from user and put it inside a variable. Then put '$' to call the variable|
 |`#[Comment]|Comment|
 
-## **Crontab**
+#### **Crontab**
 wiki: [link](https://en.wikipedia.org/wiki/Cron)
 ```
 MIN HOUR DayOfMonth MONTH DayOfWeek <Command to execure>
 ```
 |Line|Function|
 |---|---|
-|`crontab [flags]`|`-e` Edit current Crontab using select editor. *Will ask to select editor on first run*<br>`-u [Username]` Crntab for the specific user<br>`-r` Remove the current Crontab<br>`-l` Display the current crontab|
+|`crontab [flags]`|`-e` Edit current Crontab using select editor. *Will ask to select editor on first run*<br>`-u [Username]` Crontab for the specific user<br>`-r` Remove the current Crontab<br>`-l` Display the current crontab|
 
-## **System Info**
+#### **System Info**
 |Line|Function|
 |---|---|
 |[uname](https://linux.die.net/man/1/uname)|Print system information<br>-a [Kernel Name \| Hostname \| Kernel Release \| Kernal Version \| Hardware Name \| Operation System]| 
