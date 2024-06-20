@@ -159,3 +159,10 @@ MIN HOUR DayOfMonth MONTH DayOfWeek <Command to execure>
 |---|---|
 |[uname](https://linux.die.net/man/1/uname)|Print system information<br>-a [Kernel Name \| Hostname \| Kernel Release \| Kernal Version \| Hardware Name \| Operation System]| 
 |nproc|print the number of processing units available|
+|free|Display amount of free and used memory in the system<br>`-h` - Display easy read for Human<br>`-bkmg` - display number in Bytes/Kibibytes/Mebibytes/Gibibytes|
+
+##### grep
+|Line|Function|
+|---|---|
+|`-o, --only-matching [Pattern]`| Only show the pattern that is in the line.|
+|
