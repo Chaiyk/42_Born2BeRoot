@@ -36,6 +36,8 @@ Management Group Type    Control Flags    Modules Paths/Modules Argument
 ### **wget** 
 A free and open source tool for downloading files from web repositories
 
+### **Crontab**
+A job scheduler for unix-like operation system. It will execute the program on a set time.
 
 # **Command**
 ## **System** 
@@ -143,6 +145,14 @@ Tutorial: https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-
 |`read [var]`<br>``$[var]`|Get an input from user and put it inside a variable. Then put '$' to call the variable|
 |`#[Comment]|Comment|
 
+## *Crontab*
+wiki: [link](https://en.wikipedia.org/wiki/Cron)
+```
+MIN HOUR DayOfMonth MONTH DayOfWeek <Command to execure>
+```
+|Line|Function|
+|---|---|
+|`crontab [flags]`|`-e` Edit current Crontab using select editor. *Will ask to select editor on first run*<br>`-u [Username]` Crntab for the specific user<br>`-r` Remove the current Crontab<br>`-l` Display the current crontab|
 
 ##System Info
 |Line|Function|
