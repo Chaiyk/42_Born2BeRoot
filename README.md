@@ -44,7 +44,7 @@ A free and open source tool for downloading files from web repositories
 |---|---|
 |who|list out the current running tty|
 |`wall [file]` - echo details in the file<br>`wall <<< '[text]'` - echo [text]<br>`echo [text] \| wall` - echo [text]|Send a message to all the terminal that connecting to server|
-|which [command]|Check the command directory|
+|which [command]|Get the directory for command|
 |[grep](https://linux.die.net/man/1/grep) [text][file]|Print the line that match the *[text]*|
 |ssh *username*@*ip address*|Connect to a server via ssh<br>`-p [port]`connect to server via port nunber|
 
