@@ -61,9 +61,18 @@ A job scheduler for unix-like operation system. It will execute the program on a
 |systemctl status [software]|Check the status for the app/software. exp: "systemctl status ssh" will check the status for SSH service|
 |hostnamectl|Check the details of hostname|
 |hostnamectl set-hostname [*new hostname*]|Change the hostname for the machine|
+|reboot|Reboot System|
+|poweroff|Shut Down System|
+
+### **System Report**
+Command that display the system details like CPU,RAM Usage etc
+
+|Command|Function|
+|---|---|
 |[uname *-flags*](https://linux.die.net/man/1/uname)|Print system information.<br>Output:`Kernel Name (-s)``Hostname (-n)``Kernel Release (-r)``Kernel Version & Build Date (-v)``Machine Hardware Name (-m)``Operating System (-o)`|
 |[lscpu](https://linux.die.net/man/1/lscpu)|Display the details for CPU architecture|
 |[free](https://ioflood.com/blog/free-linux-command/#:~:text=Like%20a%20vigilant%20watchman%2C%20the,how%20much%20is%20still%20available.)|Display details for avaliable memory|
+/[df](report file system disk space usage)|Report file system disk space usage<br>`-h` - Human Readable Format|
 |reboot|Reboot System|
 |poweroff|Shut Down System|
 
@@ -165,4 +174,15 @@ MIN HOUR DayOfMonth MONTH DayOfWeek <Command to execure>
 |Line|Function|
 |---|---|
 |`-o, --only-matching [Pattern]`| Only show the pattern that is in the line.|
-|
+
+#### awk
+
+`awk '[command]' [file]`
+
+|Line|Function|
+|---|---|
+|`print *[condition]*`|Print on the condition stated|
+|`printf "[string]", ...`|Work like printf|
+|`$*n*`|Print the column 'n'|
+|`NR`|Keep the current number of line, awk is work line by line|
+|`NF`|Number of Fields<br>`$NF` - Represent last field|
