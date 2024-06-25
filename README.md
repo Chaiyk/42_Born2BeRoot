@@ -20,10 +20,10 @@ AppArmor is an mandatory access control (MAC) like security system for Linux. It
 
 \*Need to install "apparmor-utils" to set up profile
 
-Mode:
-Enforce - Monitor the processes that match these profiles and decide if a specific action is permitted or denied by the policy
-Complain - allow it to perform all tasks without restriction, but it will log them in the audit log as events
-Unconfined - Allow the program to perform any task and will not log it
+Mode:<br>
+Enforce - Monitor the processes that match these profiles and decide if a specific action is permitted or denied by the policy<br>
+Complain - allow it to perform all tasks without restriction, but it will log them in the audit log as events<br>
+Unconfined - Allow the program to perform any task and will not log it<br>
 
 ### **UFW (Uncomplicated FireWall)** 
 Allow/deny the access either incoming/outgoing information to the shell/server
