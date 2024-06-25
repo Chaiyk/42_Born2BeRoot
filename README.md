@@ -59,7 +59,7 @@ A job scheduler for unix-like operation system. It will execute the program on a
 |apt intall [package name]|Intall a package|
 |apt update|Check update for all package/system|
 |apt upgrade|Upgrade all the avaliable update for all package/system|
-|systemctl status [software]|Check the status for the app/software. exp: "systemctl status ssh" will check the status for SSH service|
+|systemctl [flag] [software]|`status` - Check the status for the app/software. exp: "systemctl status ssh" will check the status for SSH service<br>`start / stop` - Activate/Deactivate the program, but will not effect on boot<br>`enable / disable` - Activate/Deactivate the program, will effect whether will run on boot|
 |hostnamectl|Check the details of hostname|
 |hostnamectl set-hostname [*new hostname*]|Change the hostname for the machine|
 |reboot|Reboot System|
