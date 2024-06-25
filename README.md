@@ -16,6 +16,7 @@ The main command-line package manager for Debian or Debian-based Linux distribut
 ### **SELinux**
 
 ### **AppArmor**
+AppArmor is an mandatory access control (MAC) like security system for Linux. It is designed to work with standard Unix discretionary access control (DAC) permissions while being easy to use and deploy, by allowing an admin to confine only specific applications.
 
 ### **UFW (Uncomplicated FireWall)** 
 Allow/deny the access either incoming/outgoing information to the shell/server
