@@ -18,6 +18,13 @@ The main command-line package manager for Debian or Debian-based Linux distribut
 ### **AppArmor**
 AppArmor is an mandatory access control (MAC) like security system for Linux. It is designed to work with standard Unix discretionary access control (DAC) permissions while being easy to use and deploy, by allowing an admin to confine only specific applications.
 
+\*Need to install "apparmor-utils" to set up profile
+
+Mode:
+Enforce - Monitor the processes that match these profiles and decide if a specific action is permitted or denied by the policy
+Complain - allow it to perform all tasks without restriction, but it will log them in the audit log as events
+Unconfined - Allow the program to perform any task and will not log it
+
 ### **UFW (Uncomplicated FireWall)** 
 Allow/deny the access either incoming/outgoing information to the shell/server
 
@@ -59,7 +66,7 @@ A job scheduler for unix-like operation system. It will execute the program on a
 |apt intall [package name]|Intall a package|
 |apt update|Check update for all package/system|
 |apt upgrade|Upgrade all the avaliable update for all package/system|
-|systemctl [flag] [software]|`status` - Check the status for the app/software. exp: "systemctl status ssh" will check the status for SSH service<br>`start / stop` - Activate/Deactivate the program, but will not effect on boot<br>`enable / disable` - Activate/Deactivate the program, will effect whether will run on boot|
+|systemctl [flag] [software]|`status` - Check the status for the app/software. exp: "systemctl status ssh" will check the status for SSH service<br>`start / stop` - Activate/Deactivate the program, but will not effect on boot<br>`enable / disable` - Set run on boot status|
 |hostnamectl|Check the details of hostname|
 |hostnamectl set-hostname [*new hostname*]|Change the hostname for the machine|
 |reboot|Reboot System|
@@ -118,6 +125,11 @@ Go `/etc/ssh/sshd_config` using editor. on line 14 remove '#' and change the por
 |ufw allow [Port/Service]|Allow access for Port/Service|
 |ufw deny [Port/Service]|Deny access for Port/Service|
 |ufw delete [*number*]|Remove the port that is listed|
+
+## **AppArmor**
+|Command|Function|
+|---|---|
+|`aa-status`|Check the status for AppArmor|
 
 ## **Sudoer** 
 ```
