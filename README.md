@@ -66,7 +66,8 @@ A job scheduler for unix-like operation system. It will execute the program on a
 |apt intall [package name]|Intall a package|
 |apt update|Check update for all package/system|
 |apt upgrade|Upgrade all the avaliable update for all package/system|
-|systemctl [flag] [software]|`status` - Check the status for the app/software. exp: "systemctl status ssh" will check the status for SSH service<br>`start / stop` - Activate/Deactivate the program, but will not effect on boot<br>`enable / disable` - Set run on boot status|
+|`systemctl [flag] [software]`|`status` - Check the status for the app/software. exp: "systemctl status ssh" will check the status for SSH service<br>`start / stop` - Activate/Deactivate the program, but will not effect on boot<br>`enable / disable` - Set run on boot status|
+|`service [service] restart`|Restart service|
 |hostnamectl|Check the details of hostname|
 |hostnamectl set-hostname [*new hostname*]|Change the hostname for the machine|
 |reboot|Reboot System|
@@ -130,6 +131,7 @@ Go `/etc/ssh/sshd_config` using editor. on line 14 remove '#' and change the por
 |Command|Function|
 |---|---|
 |`aa-status`|Check the status for AppArmor|
+|`aa-[mode]`|`enforce``complain``unconfined`Set the program in soecific mode|
 
 ## **Sudoer** 
 ```
