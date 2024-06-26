@@ -12,8 +12,8 @@ CTCP=`ss -Ht state established | wc -l`
 ULOG=`users | wc -w`
 IPV4=`hostname -I`
 MACA=`ip a | grep ether | awk '{printf"%s", $2}'`
-#COMD=`cat /var/log/sudo/sudo.log | grep "COMMAND" | wc -l`
-COMD=`journalctl _COMM=sudo | grep COMMAND | wc -l`
+COMD=`cat /var/log/sudo/sudo.log | grep "COMMAND" | wc -l`
+#COMD=`journalctl -q _COMM=sudo | grep COMMAND | wc -l`
 
 wall "
 #Architecture: $UNAME
@@ -27,5 +27,5 @@ wall "
 #Connections TCP: $CTCP ESTABLISHED
 #User log: $ULOG
 #Network: IP $IPV4($MACA) 
-#Sudo: $COMD
+#Sudo: $COMD cmd
 "
