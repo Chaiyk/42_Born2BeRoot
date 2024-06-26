@@ -14,16 +14,38 @@ The main command-line package manager for Debian or Debian-based Linux distribut
 ### **Aptitude**
 
 ### **SELinux**
+Security Enhanceced Linux(SELinux), a Linux kernel security module that provides a mechanism for supporting access control security policies, including mandatory access controls (MAC)
 
 ### **AppArmor**
 AppArmor is an mandatory access control (MAC) like security system for Linux. It is designed to work with standard Unix discretionary access control (DAC) permissions while being easy to use and deploy, by allowing an admin to confine only specific applications.
 
 \*Need to install "apparmor-utils" to set up profile
+\*Also need to install "auditd" for audit log 
 
-Mode:<br>
+##### Mode:<br>
 Enforce - Monitor the processes that match these profiles and decide if a specific action is permitted or denied by the policy<br>
 Complain - allow it to perform all tasks without restriction, but it will log them in the audit log as events<br>
 Unconfined - Allow the program to perform any task and will not log it<br>
+
+##### Execution of Other programs:<br>
+Inherit: The child will inherit the parent's profile and run with the same restrictions.<br>
+Child: The child will have it's own profile within the profile of the parent process.<br>
+Profile: The child has its own profile (which must be loaded). Use this if the child is some system-wide service like DNS lookups <br>
+Named: Use an (existing) profile that you have to specify.<br>
+Unconfined: The child runs without any restrictions. This may introduce a security risk.<br>
+XiX: The child may have its own profile but will use the parent's profile as fallback if no own profile exists.<br>
+Deny: Don't execute the requested program.<br>
+Abort: This aborts aa-genprof, and you will lose all rule changes enetred so far. The profile will not be modified.<br>
+Finish: This ends aa-genprof. Rule changes entered so far will be saved and the profile will be modified (takes effect after a reload of apparmor).<br>
+
+##### Access to files:
+Allow: Allows access to this file or directory.<br>
+Deny: Deny access to this file or directory.<br>
+New: This will prompt you to enter a new path that will be added to the list of offerings.<br>
+Glob: This will replace the last part with a wildcard, creating a new entry in the offered list. If you use this option again, an even broader wildcard expression will be created.<br>
+Glob w/Ext: As above, but the filename extension will be kept.<br>
+Abort: This aborts aa-genprof, and you will lose all rule changes enetred so far. The profile will not be modified.<br>
+Finish: This ends aa-genprof. Rule changes entered so far will be saved and the profile will be modified (takes effect after a reload of apparmor).<br>
 
 ### **UFW (Uncomplicated FireWall)** 
 Allow/deny the access either incoming/outgoing information to the shell/server
@@ -132,6 +154,8 @@ Go `/etc/ssh/sshd_config` using editor. on line 14 remove '#' and change the por
 |---|---|
 |`aa-status`|Check the status for AppArmor|
 |`aa-[mode]`|`enforce``complain``unconfined`Set the program in soecific mode|
+|`aa-genprof [program]`|Generate a profile for the program|
+|`aa-legprof`|Update the profile for the program|
 
 ## **Sudoer** 
 ```
@@ -184,6 +208,14 @@ MIN HOUR DayOfMonth MONTH DayOfWeek <Command to execure>
 |[uname](https://linux.die.net/man/1/uname)|Print system information<br>-a [Kernel Name \| Hostname \| Kernel Release \| Kernal Version \| Hardware Name \| Operation System]| 
 |nproc|print the number of processing units available|
 |free|Display amount of free and used memory in the system<br>`-h` - Display easy read for Human<br>`-bkmg` - display number in Bytes/Kibibytes/Mebibytes/Gibibytes|
+|top|display linux processes|
+|who|show who is logged on<br>`-b` show last system boot|
+|last|list logins on the system|
+|lsblk|list block devices|
+|ss|display the connection<br>`-s`Summary the details|
+|users|Display connecting users|
+|hostname|Display the hostname of the system<br>`-I` display the IP address of the network|
+|wc|Word count<br>`-l` Count by line<br>`-m` Count by Characters<br>'-w' Count by number if words| 
 
 ##### grep
 |Line|Function|
