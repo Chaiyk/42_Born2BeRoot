@@ -124,6 +124,7 @@ Command that display the system details like CPU,RAM Usage etc
 |---|---|
 |usermod [*flags*]|`-aG [Group Name] [Username]` append the user to a group (*-a = append && -G = group*)|
 |gpasswd -d [Username][Group Name]|Delete the user from the group (*-d = delete*)|
+|getent group [group]|get the list of users in related group|
 |groups|List the groups that your current logged user is in|
 |groupadd [Group Name]|Add a group in system|
 |groupdel [Group name]|Delete the group in system|
