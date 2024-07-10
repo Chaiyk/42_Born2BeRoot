@@ -11,8 +11,6 @@ LV = Logical Volume, storage that are ready to use in OS like C drive etc <br>
 ### **APT (Advanced Package Tool)** 
 The main command-line package manager for Debian or Debian-based Linux distributions
 
-### **Aptitude**
-
 ### **SELinux**
 Security Enhanceced Linux(SELinux), a Linux kernel security module that provides a mechanism for supporting access control security policies, including mandatory access controls (MAC)
 
@@ -52,8 +50,6 @@ Allow/deny the access either incoming/outgoing information to the shell/server
 
 ### **SSH (Secure Shell)**
 A Shell that use encrypted test to communicate to serverx`
-
-### **TTY mode**
 
 ### **PAM (Pluggable Authentication Modules)**
 Management Group Type    Control Flags    Modules Paths/Modules Argument 
